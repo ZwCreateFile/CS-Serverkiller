@@ -14,14 +14,14 @@ auto __vectorcall main() -> std::int32_t
      ADDRINFOW address_info{};
      WSAData socket_data{};
 
-        /*my loadlibary is fire /
+        /*my loadlibary is fire */
         LoadLibraryW(L"advapi32.dll");
         LoadLibraryW(L"ws2_32.dll");
 
         
         SetConsoleTitleW(L"fucking ur servers XD");
 
-        / buffer should be 0x1000/
+        /* buffer should be 0x1000 /*
         std::int8_t socket_buffer[0x1000]{};
         std::wstring ip{};
         std::vector<std::wstring> part{};
