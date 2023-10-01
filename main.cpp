@@ -21,7 +21,7 @@ auto __vectorcall main() -> std::int32_t
         
         SetConsoleTitleW(L"fucking ur servers XD");
 
-        /* buffer should be 0x1000 /*
+        /* buffer should be 0x1000 */
         std::int8_t socket_buffer[0x1000]{};
         std::wstring ip{};
         std::vector<std::wstring> part{};
